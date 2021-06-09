@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- Enable Microsoft VML -->
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<title>Title Text</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" http-equiv="Content-Type">
+
+<style type="text/css">
+
+    /** { border: 1px dotted red !important; }
+    td { border: 1px dotted red !important; }
+    img { border: 1px solid blue !important; }
+    br { border: 1px dashed limegreen !important; content: "A" !important; display: block !important; }
+    a { border: 1px solid #f441d0 !important; }*/
+
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    /* Prevent WebKit and Windows mobile changing default text sizes */
+  
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    /* Remove spacing between tables in Outlook 2007 and up */
+
+    img { -ms-interpolation-mode: bicubic; }
+    /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    /* HOVER STYLES */
+    .social-media-hover {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+    }
+    .social-media-hover:hover {
+        opacity: .65;
+    }
+    .img-max:hover {
+        opacity: .90;
+    }
+    .link-hover-white a:hover, .link-hover-header a:hover {
+        background: linear-gradient(to right, #d211c5 100%, #cd00cd 0%) !important;
+        opacity:  .80 !important;
+        /*background-color: #6dc6f4 !important;
+        border-color: #6dc6f4 !important;
+        color: #ffffff !important;*/
+    }
+    .company-text:hover, .address a:hover  {
+        color: #0da1ed !important;
+    }
+    .text-links:hover {
+        text-decoration: none !important;
+    }
+    .para-link:hover {
+        text-decoration: underline !important;
+    }
+
+    .address a {
+        color: #09143b !important;
+        text-decoration: none !important;
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+        /* Forces full width for Gmail App */
+        u ~ div .mobile-wrapper {
+            min-width: 100vw;
+        }
+        /*Samsung Mail Mobile Fix*/
+        #MessageViewBody, #MessageWebViewDiv {
+            width: 100% !important;
+        }
+
+        /* Wrapper */
+        .mobile-wrapper {
+            width: 100% !important;
+        }
+        .mobile-column {
+            display: block !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        /* Button */
+        .link-hover-white {
+            padding: 60px 0 60px 0 !important;
+        }
+        .link-hover-white a {
+            font-size: 16px !important;
+            padding: 20px 80px !important;
+        }
+
+        /* Name + Intro Text */
+        .intro-text p, .mid-text p {
+            font-size: 18px !important;
+            line-height: 1.5em  !important;
+            padding: 20px 10px 0 10px !important;
+        }
+        .intro-text .title-text {
+            font-size: 24px !important;
+            padding: 20px 10px 0 10px !important;
+        }
+        .sig p {
+            font-size: 18px !important;
+            line-height: 1.5em  !important;
+            padding: 20px 10px 40px 10px !important;
+        }
+        .value-text p {
+            font-size: 18px !important;
+            line-height: 1.5em  !important;
+            padding: 0 10px 0 10px !important;
+            text-align: center !important;
+        }
+        .value-text .value-para {
+            padding: 0 10px 20px 10px !important;
+        }
+
+        /* Header */
+        .header-btn {
+            padding: 0 0 0 2px !important;
+            width: auto !important;
+        }
+        .header-logo {
+            padding: 30px 0 20px 10px !important;
+            width: auto !important;
+        }
+        .header-profile {
+            width: auto !important;
+        }
+
+        /* Image styles */
+        .img-max {
+            height: auto !important;
+            width: 100% !important;
+        }
+        .mobile-column .value-img {
+            margin: 0 auto !important;
+            padding: 40px 0 20px 0 !important;
+            width: 90px !important;
+        }
+
+        /* Footer */
+        /* Unable to target align property at the table level */
+        .footer img, .footer .footer-social, .footer .footer-compinfo {
+            margin: 0 auto !important;
+        }
+        .footer-social, .footer-compinfo {
+            width: 100% !important;
+        }
+        .footer-logo {
+            padding: 20px 0 0 0 !important;
+        }
+        .footer-social td {
+            padding: 40px 0 40px 0 !important;
+            text-align: center !important;
+        }
+        .footer-compinfo {
+            padding: 10px 10px 40px 10px !important;
+        }
+        .footer-compinfo p, .footer-weblinks p {
+            font-size: 16px !important;
+            padding: 0 10px 0 10px !important;
+            text-align: center !important;
+        }
+        .footer-weblinks {
+            padding: 40px 0 0 0 !important;
+        }
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+
+</style>
+
+<!-- To make VML and images scale properly; fix for DPI Outlook button -->
+<!--[if gte mso 9]>
+<xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+
+</head>
+
+    <body bgcolor="#edf0f5" style="margin: 0 !important; padding: 0 !important; background-color: #edf0f5;">
+
+    <!-- PREHEADER + SPACING -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">Preheader text</div>
+    <div style="display: none; width: 0px; height: 0px; max-height: 0px; overflow: hidden;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+    <!-- end preheader + spacing -->
+
+        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="mobile-wrapper">
+
+
+            <!-- HEADER -->
+            <tr>
+                <td>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+
+                            <!-- Logo -->
+                            <td align="left" valign="middle" width="100%" bgcolor="#edf0f5" style="background-color: #edf0f5; padding: 20px 0 20px 0;" class="header-logo">
+                                <a href="#"><img src="https://dummyimage.com/150x70/000/fff" alt="Alt tag text" width="150" height="auto" border="0" style="color: #0da1ed; display: block; font-size: 22px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; width: 150px; height: auto;"></a>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end header -->
+
+
+            <!-- HERO IMAGE -->
+            <tr>
+                <td>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+
+                            <td align="center" valign="middle" width="100%" bgcolor="#edf0f5" style="background-color: #edf0f5; padding: 0;">
+                                <a href="#"><img src="https://dummyimage.com/600x300/000/fff" alt="Alt tag text" width="600" height="auto" border="0" style="color: #0da1ed; display: block; font-size: 22px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; width: 600px; height: auto;" class="img-max"></a>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end hero image -->
+
+
+            <!-- INTRO TEXT -->
+            <tr>
+                <td>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 40px; width: 100%;" class="mobile-column">
+
+                                <div class="mobile-column intro-text" align="left" valign="top" style="margin: 0; padding: 0;">
+                                    <p style="color: #09143b; font-weight: 500; font-size: 32px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 8px 0;" class="title-text">Headline Text</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="20" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">&nbsp;</div>
+                                    <![endif]-->
+                                    
+                                    <p style="color: #09143b; font-weight: 400; font-size: 20px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 20px 0;">Subhead text Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="20" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">&nbsp;</div>
+                                    <![endif]-->
+
+                                    <p style="color: #09143b; font-weight: 400; font-size: 16px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 20px 0;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate maxime nesciunt corrupti adipisci quae architecto molestiae consequuntur, saepe alias non debitis. Veniam distinctio reprehenderit ut. Veniam non libero expedita adipisci!</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="20" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">&nbsp;</div>
+                                    <![endif]-->
+
+                                    <p style="color: #09143b; font-weight: 400; font-size: 16px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 20px 0;">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Alias tempore asperiores praesentium perferendis nemo possimus, nihil aut animi esse?</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="20" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">&nbsp;</div>
+                                    <![endif]-->
+
+                                    <p style="color: #09143b; font-weight: 400; font-size: 16px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0;">Porro incidunt a est provident quos. Enim soluta ut odio repellendus facere nesciunt? Inventore, tenetur! Fuga quaerat suscipit libero atque asperiores amet. Accusantium, ab eveniet aperiam. Blanditiis culpa odio repellat deleniti velit aut eius libero ab, quia iste asperiores quaerat dolorum voluptatibus voluptates voluptate.</p>
+
+                                </div>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end intro text -->
+
+
+            <!-- BULLET PROOF BUTTON -->
+            <tr>
+                <td>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 0; width: 100%;">
+
+                                <!-- Padding for each type of button on located in the element -->
+                                <!--[if mso]>
+                                <table>
+                                    <tr>
+                                        <td style="padding: 0 0 20px 0;">
+                                <![endif]-->
+
+                                <!--[if mso]>
+                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height: 60px; width: 300; v-text-anchor: middle;" arcsize="0%" strokecolor="#0da1ed" fillcolor="#0da1ed">
+                                    <w:anchorlock/> 
+                                        <center style="color: #ffffff; font-size: 18px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-transform: uppercase;">button cta</center>
+                                    </v:roundrect>
+                                <![endif]-->
+
+                                <!--[if !mso]>
+                                <!-->
+                                <div class="link-hover-white" align="center" style="padding: 0 0 20px 0;"><a href="#" style="background: linear-gradient(to right, #ec4e38 0%, #cd00cd 100%); border-radius: 5px; color: #ffffff; font-weight: 400; font-size: 16px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .5px; padding: 16px 60px; text-align: center; text-decoration: none; text-transform: uppercase;">button cta</a></div>
+                                <!--<![endif]-->
+
+                                <!--[if mso]>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <![endif]-->
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end bullet proof button -->
+
+
+            <!-- MID TEXT -->
+            <tr>
+                <td>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 40px; width: 100%;" class="mobile-column">
+
+                                <div class="mobile-column intro-text" align="left" valign="top" style="margin: 0; padding: 0;">
+                                    <p style="border-top: 1px solid #e4e8f0; color: #09143b; font-weight: 500; font-size: 32px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 40px 0 0 0; text-align: center;" class="title-text">Headline text</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="20" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">&nbsp;</div>
+                                    <![endif]-->
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end mid text -->
+
+
+            <!-- VALUE PROPS -->
+            <tr>
+                <td>
+                    <table>
+
+                        <tr>
+                            <td align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 0; width: 30%;" class="mobile-column">
+                                <img src="https://dummyimage.com/100x100/000/fff" alt="Personalized collaboration dashboard" width="100" height="auto" border="0" style="color: #0da1ed; display: block; font-size: 22px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; width: 100px; height: auto; padding: 0 0 20px 0;" class="value-img">
+                            </td>
+                            <td align="left" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 0 40px 0 0; width: 70%;" class="mobile-column">
+
+                                <div class="mobile-column value-text" align="left" valign="top" style="margin: 0; padding: 0;">
+                                    <p style="color: #09143b; font-weight: 500; font-size: 18px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 6px 0;">Value Prop Title</p>
+                                    <p class="value-para" style="color: #09143b; font-weight: 400; font-size: 16px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 30px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, cupiditate aperiam exercitationem, quibusdam nostrum fugiat eos.</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="40" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 40px;">&nbsp;</div>
+                                    <![endif]-->
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 0; width: 30%;" class="mobile-column">
+                                <img src="https://dummyimage.com/100x100/000/fff" alt="Upgraded resume formats" width="100" height="auto" border="0" style="color: #0da1ed; display: block; font-size: 22px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; width: 100px; height: auto;" class="value-img">
+                            </td>
+                            <td align="left" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 0 40px 0 0; width: 70%;" class="mobile-column">
+
+                                <div class="mobile-column value-text" align="left" valign="top" style="margin: 0; padding: 0;">
+                                    <p style="color: #09143b; font-weight: 500; font-size: 18px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 6px 0;">Value Prop Title</p>
+                                    <p class="value-para" style="color: #09143b; font-weight: 400; font-size: 16px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 50px 0;">Laborum a iure facilis sed provident hic laudantium ipsa assumenda repellat dolores fugit fugiat, corporis ratione explicabo debitis sit neque. Deleniti, id!</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="30" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 30px;">&nbsp;</div>
+                                    <![endif]-->
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 0; width: 30%;" class="mobile-column">
+                                <img src="https://dummyimage.com/100x100/000/fff" alt="Improved writer tools" width="100" height="auto" border="0" style="color: #0da1ed; display: block; font-size: 22px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; width: 100px; height: auto;" class="value-img">
+                            </td>
+                            <td align="left" bgcolor="#ffffff" style="background-color: #ffffff; margin: 0; padding: 0 40px 0 0; width: 70%;" class="mobile-column">
+
+                                <div class="mobile-column value-text" align="left" valign="top" style="margin: 0; padding: 0;">
+                                    <p style="color: #09143b; font-weight: 500; font-size: 18px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 6px 0;">Value Prop Title</p>
+                                    <p class="value-para" style="color: #09143b; font-weight: 400; font-size: 16px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0 0 80px 0;">Repudiandae repellendus debitis, ea voluptate dignissimos porro labore inventore quo sit quaerat! Nulla, quidem, repellendus.</p>
+
+                                    <!--[if mso]>
+                                    <div align="left" valign="top" width="100%" height="40" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 40px;">&nbsp;</div>
+                                    <![endif]-->
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end value props -->
+
+        
+            <!-- FOOTER -->
+            <tr>
+                <td bgcolor="#ffffff" style="background-color: #ffffff;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" class="footer">
+                        <tr>
+
+                            <td valign="top" style="margin: 0; padding: 0; width: 100%;" class="mobile-column">
+
+                                <!--[if mso]>
+                                <div align="left" valign="top" width="100%" height="40" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 40px;">&nbsp;</div>
+                                <![endif]-->
+                                
+                                <!-- Company Social Media Links -->
+                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="footer-social">
+                                    <tr>
+                                        <td align="center" valign="middle" style="margin: 0; padding: 0 20px 20px 0;">
+                                            <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="Blog" width="50" height="auto" border="0" style="width: 50px; height: auto; margin: 0; padding: 0;" class="social-media-hover"></a>
+                                        </td>
+                                        <td align="center" valign="middle" style="margin: 0; padding: 0 20px 20px 0;">
+                                            <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="Facebook" width="50" height="auto" border="0" style="width: 50px; height: auto; margin: 0; padding: 0;" class="social-media-hover"></a>
+                                        </td>
+                                        <td align="center" valign="middle" style="margin: 0; padding: 0 20px 20px 0;">
+                                            <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="Twitter" width="50" height="auto" border="0" style="width: 50px; height: auto; margin: 0; padding: 0;" class="social-media-hover"></a>
+                                        </td>
+                                        <td align="center" valign="middle" style="margin: 0; padding: 0 20px 20px 0;">
+                                            <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="LinkedIn" width="50" height="auto" border="0" style="width: 50px; height: auto; margin: 0; padding: 0;" class="social-media-hover"></a>
+                                        </td>
+                                        <td align="center" valign="middle" style="margin: 0; padding: 0 0 20px 0;">
+                                            <a href="#"><img src="https://dummyimage.com/50x50/000/fff" alt="Instagram" width="50" height="auto" border="0" style="width: 50px; height: auto; margin: 0; padding: 0;" class="social-media-hover"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <div style="border-top: 1px solid #e4e8f0;"></div>
+
+                                <!-- Company Information -->
+                                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="footer-compinfo">
+                                    <tr>
+                                        <td valign="top" align="center" style="margin: 0; padding: 20px 40px 40px 40px; width: 100%;">
+                                            <p style="color: #09143b; font-weight: 400; font-size: 10px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0;">
+                                            <a href="#" style="color: #09143b; text-decoration: none;" class="company-text">&copy; {{now format="yyyy"}} Company</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" style="color: #09143b; text-decoration: none;" class="company-text">Web Version</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" style="color: #09143b; text-decoration: none;" class="company-text">Privacy</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#" style="color: #09143b; text-decoration: none;" class="company-text">Terms</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" style="color: #09143b; text-decoration: none;" class="company-text">Unsubscribe</a>
+                                            </p>
+                                            <p style="color: #09143b; font-weight: 400; font-size: 10px; font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.5em; margin: 0; padding: 0;">
+                                            <span style="color: #09143b;" class="company-text address">123 E 123rd St | New York, NY</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- end footer -->
+
+
+        </table>
+    </body>
+</html>
